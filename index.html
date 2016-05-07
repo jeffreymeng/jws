@@ -47,13 +47,27 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">Products</a>
+                        <div class="dropdown">
+                          <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Products
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="products/stationary-1.html" class="list-group-item">Stationary</a></li>
+                            <li><a href="products/programs-1.html" class="list-group-item">Programs</a></li>
+                            <li><a href="products/other-1.html" class="list-group-item">Other</a></li>
+                          </ul>
+                        </div>
+                    </li>
+                    
+                    <li>
+                        <a href="gift-cards.html">Gift Cards</a>
                     </li>
                     <li>
-                        <a href="#">Gift Cards</a>
+                        <a href="search.html">Search</a>
                     </li>
                     <li>
-                        <a href="#" class="right"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        <a href="#" class="pull-right"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
 Cart - <span id="items">0</span> Items - $<span id="tottal-price">0.00</span></a>
                     </li>
                 </ul>
@@ -71,9 +85,9 @@ Cart - <span id="items">0</span> Items - $<span id="tottal-price">0.00</span></a
             <div class="col-md-3">
                 <p class="lead">Jefffrey's Web Shop</p>
                 <div class="list-group">
-                    <a href="#" class="list-group-item">Category 1</a>
-                    <a href="#" class="list-group-item">Category 2</a>
-                    <a href="#" class="list-group-item">Category 3</a>
+                    <a href="#" class="list-group-item">Stationary</a>
+                    <a href="#" class="list-group-item">Programs</a>
+                    <a href="#" class="list-group-item">Other</a>
                 </div>
             </div>
 
